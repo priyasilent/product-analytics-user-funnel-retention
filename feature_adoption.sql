@@ -1,6 +1,6 @@
 SELECT
-    onboarding_step,
-    COUNT(DISTINCT user_id) AS users_at_step
-FROM user_onboarding
-GROUP BY onboarding_step
-ORDER BY onboarding_step;
+    feature_name,
+    COUNT(DISTINCT user_id) AS users_using_feature
+FROM feature_events
+GROUP BY feature_name
+ORDER BY users_using_feature DESC;
