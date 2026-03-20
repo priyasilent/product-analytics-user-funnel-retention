@@ -1,54 +1,57 @@
 # Product Analytics Case Study: User Funnel & Retention Analysis
 
 ## Overview
-This project analyzes user onboarding behaviour in a product environment. The goal was to identify drop-off points, define product success metrics, evaluate retention patterns, and suggest actions to improve user conversion and engagement.
+This project simulates a product analytics workflow for a fintech-style application. The focus is on understanding user behaviour during onboarding, identifying friction points, and defining metrics that guide product decisions.
 
 ## Business Problem
-Users drop off during onboarding. The objective was to understand where the biggest friction occurs and which product metrics should guide improvement decisions.
+Users drop off during onboarding. The goal was to identify where users leave, measure retention, and suggest improvements to increase conversion and engagement.
 
-## Objectives
-- Measure onboarding funnel performance
-- Identify high drop-off steps
-- Evaluate short-term retention
-- Analyze feature adoption
-- Recommend product improvements
-- Propose A/B testing opportunities
+## Key Questions
+- Where do users drop off in the onboarding funnel?
+- What is the onboarding completion rate?
+- How many users return after signup?
+- Which features are most and least used?
+- What should the product team improve next?
 
-## Key Product Metrics
-- Signup volume
-- Onboarding completion rate
-- Step-to-step conversion
+## Metrics Defined
+- Onboarding conversion rate
+- Step-to-step drop-off rate
 - Day 1 retention
 - Day 7 retention
 - Feature adoption rate
 
-## Project Structure
-- `funnel_analysis.sql` → onboarding funnel analysis
-- `retention_analysis.sql` → retention and engagement analysis
-- `feature_adoption.sql` → feature usage analysis
+## Analysis Performed
 
-## Example Questions Answered
-- At which onboarding step do users drop off most?
-- What is the onboarding completion rate?
-- How many users return after signup?
-- Which features are underused?
-- What should the product team test next?
+### 1. Funnel Analysis
+- Measured user progression across onboarding steps
+- Identified highest drop-off points
+
+### 2. Retention Analysis
+- Evaluated user activity after signup
+- Compared Day 1 and Day 7 retention
+
+### 3. Feature Adoption
+- Analyzed which features users interact with most
+- Identified underutilized features
 
 ## Key Insights
-- Highest user drop-off occurs during onboarding step 2
-- Retention declines significantly after the first few days
-- A small number of features drive most user activity
-- Product teams need clear KPI definitions and faster visibility into behaviour data
+- Significant drop-off observed at onboarding step 2
+- Retention declines sharply after initial usage
+- A small number of features drive majority of engagement
 
 ## Recommendations
-- Simplify the highest-friction onboarding step
-- Add progress indicators or nudges during onboarding
-- Test shorter onboarding flows with A/B experiments
-- Improve visibility of underused high-value features
-- Track product metrics in a dashboard for faster decision-making
+- Simplify onboarding flow at high drop-off step
+- Introduce onboarding guidance or progress indicators
+- Run A/B test on shorter onboarding flow
+- Improve visibility of underused features
 
 ## Tech Stack
 SQL, Python, Power BI
 
+## Project Structure
+- funnel_analysis.sql
+- retention_analysis.sql
+- feature_adoption.sql
+
 ## Outcome
-This project demonstrates product analytics thinking through funnel analysis, KPI design, retention analysis, and business recommendations aligned with product decision-making.
+Demonstrates product analytics thinking using SQL-driven analysis, KPI design, and actionable insights aligned with product decision-making.
