@@ -58,3 +58,5 @@ Demonstrates product analytics thinking using SQL-driven analysis, KPI design, a
 
 ## Product Thinking
 This analysis focuses not only on identifying patterns, but on translating data into clear product decisions that improve user experience and business outcomes.
+
+Highest drop-off occurs between "App Open" and "Signup Started", indicating onboarding friction at early stages. This suggests the need for simplification or guided onboarding to improve conversion.
