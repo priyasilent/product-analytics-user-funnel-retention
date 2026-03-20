@@ -55,3 +55,6 @@ SQL, Python, Power BI
 
 ## Outcome
 Demonstrates product analytics thinking using SQL-driven analysis, KPI design, and actionable insights aligned with product decision-making.
+
+## Product Thinking
+This analysis focuses not only on identifying patterns, but on translating data into clear product decisions that improve user experience and business outcomes.
