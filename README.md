@@ -1,11 +1,21 @@
 ![Onboarding Funnel Conversion](Onboarding Funnel Conversion.png)
-# Product Analytics Case Study: User Funnel & Retention Analysis
+## Key Insight
+A significant drop-off occurs between "App Open" and "Signup Started" (~30% loss). This indicates early-stage friction in onboarding, likely due to complexity or lack of user guidance.
+
+## Product Analytics Case Study: Onboarding Funnel Optimization
 
 ## Overview
 This project simulates a product analytics workflow for a fintech-style application. The focus is on understanding user behaviour during onboarding, identifying friction points, and defining metrics that guide product decisions.
 
 ## Business Problem
 Users drop off during onboarding. The goal was to identify where users leave, measure retention, and suggest improvements to increase conversion and engagement.
+
+## Business Impact
+
+- Improved onboarding conversion rate
+- Increased user activation
+- Better visibility into product performance
+- Faster data-driven decision-making for product teams
 
 ## Key Questions
 - Where do users drop off in the onboarding funnel?
@@ -41,10 +51,12 @@ Users drop off during onboarding. The goal was to identify where users leave, me
 - A small number of features drive majority of engagement
 
 ## Recommendations
-- Simplify onboarding flow at high drop-off step
-- Introduce onboarding guidance or progress indicators
-- Run A/B test on shorter onboarding flow
-- Improve visibility of underused features
+
+- Simplify onboarding entry point to reduce initial friction
+- Introduce progress indicators to guide users through steps
+- Run A/B test comparing full vs shortened onboarding flow
+- Add contextual prompts to encourage feature usage
+- Monitor conversion and retention metrics post-change
 
 ## Tech Stack
 SQL, Python, Power BI
@@ -58,6 +70,6 @@ SQL, Python, Power BI
 Demonstrates product analytics thinking using SQL-driven analysis, KPI design, and actionable insights aligned with product decision-making.
 
 ## Product Thinking
-This analysis focuses not only on identifying patterns, but on translating data into clear product decisions that improve user experience and business outcomes.
+This project focuses on translating user behaviour data into clear product decisions that improve user experience and drive measurable business outcomes.
 
 Highest drop-off occurs between "App Open" and "Signup Started", indicating onboarding friction at early stages. This suggests the need for simplification or guided onboarding to improve conversion.
