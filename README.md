@@ -1,3 +1,4 @@
+![Onboarding Funnel Conversion](Onboarding Funnel Conversion.png)
 # Product Analytics Case Study: User Funnel & Retention Analysis
 
 ## Overview
